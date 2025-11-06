@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 import static org.springframework.http.ResponseEntity.status;
 
 @CrossOrigin(
-        origins = "https://fortinet-five.vercel.app/",
+        origins = "https://fortinet-five.vercel.app",
         methods = { RequestMethod.GET, RequestMethod.POST, RequestMethod.OPTIONS },
         allowedHeaders = "*"
 )
